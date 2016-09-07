@@ -1,0 +1,33 @@
+{
+	"name": "staticIP",
+	"text": "Setup Static IP\\nDevice Name: %1\\nIP Adress: %2\\nNetmask: %3\\nGateway: %4",
+	"script": "setStaticIP.sh",
+	"args": [
+		{
+			"type": "text",
+			"default": "device-name",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "network-address",
+			"maxLength":15
+		},
+		{
+			"type": "text",
+			"default": "network-netmask",
+			"maxLength":15
+		},
+		{
+			"type": "text",
+			"default": "network-gateway",
+			"maxLength":15
+		}
+	],
+	"network": false,
+	"continue": true,
+	"type": "network",
+	"category":"network",
+	"shortDescription":"Setup an Static IP",
+	"longDescription":"This block allows you to set an static IP for an device"
+}
