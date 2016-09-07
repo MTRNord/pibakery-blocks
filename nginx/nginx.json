@@ -1,6 +1,6 @@
 {
 	"name": "nginx",
-	"text": "Builds NGINX with http2 and ssl support\\nRequires internet connection",
+	"text": "Builds NGINX with http2, ssl and ipv6 support\\nRequires internet connection",
 	"script": "nginxBuild.sh",
 	"args": [],
 	"network": true,
