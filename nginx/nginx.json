@@ -1,0 +1,12 @@
+{
+	"name": "nginx",
+	"text": "Builds NGINX with http2 and ssl support\\nRequires internet connection",
+	"script": "nginxBuild.sh",
+	"args": [],
+	"network": true,
+	"continue": true,
+	"type": "software",
+	"category":"software",
+	"shortDescription":"Install a web server on your Raspberry Pi. Requires internet connection.",
+	"longDescription":"NGINX is a web server for more experienced users to run their websites. This builds NGINX from source."
+}
