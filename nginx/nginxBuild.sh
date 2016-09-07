@@ -1,4 +1,4 @@
-#!/usr/bin sh
+#!/usr/bin/env bash
 
 #Add default init scripts the easy way
 apt-get install nginx
