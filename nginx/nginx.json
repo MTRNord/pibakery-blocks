@@ -5,8 +5,8 @@
 	"args": [],
 	"network": true,
 	"continue": true,
-	"type": "program",
-	"category":"program",
+	"type": "software",
+	"category":"software",
 	"shortDescription":"Install a web server on your Raspberry Pi. Requires internet connection.",
 	"longDescription":"NGINX is a web server for more experienced users to run their websites. This builds NGINX from source."
 }
